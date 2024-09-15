@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+printf("Enter your favourite number")
+scanf("d" , &number)
+ 
+if (number %2=0)
+printf("Given number is even")
+else
+printf("Given number is odd")
+
+}
+return 0;

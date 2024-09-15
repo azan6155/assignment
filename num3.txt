@@ -1,0 +1,35 @@
+#include <stdio.h>
+ int main() {
+ int selection;
+
+printf("Calculate the area of a circle")
+printf("Calculate area of triangle")
+printf("Calculate area of recatngle")
+
+printf("Enter your selection")
+scanf("%d", selection) 
+   if sel==circle
+   float radius
+printf("Enter Radius")
+scanf("%f, & radius)
+area of circle(3.142*Radius*Radius)
+ 
+else if(sel==traingle)
+{
+printf("Enter base and height")
+scanf("%f%f, &&b,h)
+area=1/2*b*h
+
+else if(sel==rectangle)
+{
+printf("Enter length and width")
+scanf(%f%f, &&l,w)
+area=length*width
+
+elseif(selection!=circle,rectangle and triangle)
+ printf("Wrong option")
+
+return 0;
+
+
+

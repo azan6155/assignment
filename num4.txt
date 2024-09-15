@@ -1,0 +1,28 @@
+#include <stdio.h>
+ int main() {
+ float cost,discount,payment
+printf("Enter your cost")
+scanf("%f ,&cost)
+if (cost>=500 && cost<=2000)
+discount = 0.05*cost;
+payment=cost-discount
+
+else if(cost>=2000 && cost<=4000)
+discount = 0.10*cost;
+payment=cost-discount
+
+else if(cost>4000 && cost<=600)
+discount = 0.20*cost;
+payment=cost-discount
+
+else if(cost>6000)
+discount = 0.35*cost;
+payment = cost-discount
+
+else 
+printf("Discount not avaiable")
+
+return 0;
+
+
+
